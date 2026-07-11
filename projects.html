@@ -5,27 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projects — Othman El Majid</title>
   <meta name="description" content="Projects by Othman El Majid — 38+ shipped apps and websites: Coordify, Caraleya, Gooto, Creaskale, Moharik, and more." />
+  <script>(function(){var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <header class="nav" id="siteHeader"></header>
 
+  <section class="page-head">
+    <div class="container">
+      <p class="kicker">Projects</p>
+      <h1 class="page-title">Things I've built and led.</h1>
+      <p class="page-sub">A selection of the products I've built, led, or architected — with the details of what went into each one.</p>
+      <div class="filter-bar" id="filterBar">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="cto">CTO roles</button>
+        <button class="chip" data-filter="mobile">Mobile</button>
+        <button class="chip" data-filter="web">Web</button>
+        <button class="chip" data-filter="freelance">Freelance</button>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ PROJECTS ============ -->
   <section class="section" id="projects">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
-      <p class="section-sub">A selection of the products I've built, led, or architected — with the details of what went into each one.</p>
-
       <div class="projects">
 
         <!-- Coordify -->
-        <article class="project">
+        <article class="project" data-cat="cto mobile web" data-reveal>
           <div class="project-head">
             <h3>Coordify</h3>
+            <span class="featured-mark">Featured</span>
             <span class="project-role">Chief Technology Officer · Sept 2025 – Feb 2026</span>
           </div>
           <p class="project-desc">
@@ -41,9 +55,10 @@
         </article>
 
         <!-- Caraleya -->
-        <article class="project">
+        <article class="project" data-cat="mobile" data-reveal>
           <div class="project-head">
             <h3>Caraleya — Social Organizer App</h3>
+            <span class="featured-mark">Featured</span>
             <span class="project-role">Flutter Mobile Developer · Apr 2025 – Jul 2025</span>
           </div>
           <p class="project-desc">
@@ -62,9 +77,10 @@
         </article>
 
         <!-- Justice Data Solutions -->
-        <article class="project">
+        <article class="project" data-cat="mobile" data-reveal>
           <div class="project-head">
             <h3>Justice Data Solutions — Legal-Tech Apps</h3>
+            <span class="featured-mark">Featured</span>
             <span class="project-role">Lead Flutter Developer · United States (Remote) · Dec 2022 – Dec 2024</span>
           </div>
           <p class="project-desc">
@@ -80,7 +96,7 @@
         </article>
 
         <!-- Gooto / Kenjano -->
-        <article class="project">
+        <article class="project" data-cat="cto mobile" data-reveal>
           <div class="project-head">
             <h3>Gooto &amp; the Kenjano App Studio</h3>
             <span class="project-role">Chief Technology Officer — Kenjano · Rabat · Jun 2022 – Oct 2024</span>
@@ -99,7 +115,7 @@
         </article>
 
         <!-- Creaskale -->
-        <article class="project">
+        <article class="project" data-cat="cto mobile" data-reveal>
           <div class="project-head">
             <h3>Creaskale — Social Video Platform</h3>
             <span class="project-role">Chief Technology Officer · France (Remote) · Jan 2023 – Jun 2024</span>
@@ -117,7 +133,7 @@
         </article>
 
         <!-- Moharik -->
-        <article class="project">
+        <article class="project" data-cat="cto web" data-reveal>
           <div class="project-head">
             <h3>Moharik — Crowdfunding Platform</h3>
             <span class="project-role">Chief Technology Officer · Jul 2022 – Feb 2023</span>
@@ -135,7 +151,7 @@
         </article>
 
         <!-- Gladly -->
-        <article class="project">
+        <article class="project" data-cat="mobile" data-reveal>
           <div class="project-head">
             <h3>Gladly — Lifestyle Ecosystem App</h3>
             <span class="project-role">Flutter Developer — WRK.house · Canada (Remote) · Apr 2021 – Dec 2022</span>
@@ -153,7 +169,7 @@
         </article>
 
         <!-- Farmly -->
-        <article class="project">
+        <article class="project" data-cat="mobile freelance" data-reveal>
           <div class="project-head">
             <h3>Farmly — Gardening &amp; Sustainability App</h3>
             <span class="project-role">Flutter Mobile App Developer · United States (Remote) · Feb 2022 – Nov 2022</span>
@@ -171,7 +187,7 @@
         </article>
 
         <!-- Bwhour -->
-        <article class="project">
+        <article class="project" data-cat="mobile" data-reveal>
           <div class="project-head">
             <h3>Bwhour — Gamified EdTech SaaS</h3>
             <span class="project-role">Flutter Application Developer — COURBEVOIE · France (Remote) · Jan 2021 – Feb 2022</span>
@@ -189,7 +205,7 @@
         </article>
 
         <!-- Charity Apps -->
-        <article class="project">
+        <article class="project" data-cat="mobile freelance" data-reveal>
           <div class="project-head">
             <h3>Charity Apps — Saudi Arabia</h3>
             <span class="project-role">Freelance Flutter Developer · Feb 2020 – Nov 2020</span>
@@ -208,7 +224,7 @@
         </article>
 
         <!-- Freelance + Unity -->
-        <article class="project">
+        <article class="project" data-cat="mobile freelance" data-reveal>
           <div class="project-head">
             <h3>Freelance Portfolio — 15+ Apps &amp; 8 Unity Games</h3>
             <span class="project-role">Mobile &amp; Game Developer · Fiverr, Mostaqil &amp; others · Feb 2017 – Jun 2020</span>
@@ -232,5 +248,20 @@
   <footer class="footer" id="siteFooter"></footer>
 
   <script src="js/layout.js"></script>
+  <script>
+    (function () {
+      const chips = document.querySelectorAll('#filterBar .chip');
+      const projects = document.querySelectorAll('.project');
+      chips.forEach(chip => chip.addEventListener('click', () => {
+        chips.forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        const f = chip.dataset.filter;
+        projects.forEach(p => {
+          const show = f === 'all' || (p.dataset.cat || '').split(' ').includes(f);
+          p.classList.toggle('hidden-by-filter', !show);
+        });
+      }));
+    })();
+  </script>
 </body>
 </html>

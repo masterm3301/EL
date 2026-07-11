@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact — Othman El Majid</title>
   <meta name="description" content="Contact Othman El Majid — open to CTO engagements, contract work, and full-time remote roles." />
+  <script>(function(){var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -17,13 +18,16 @@
   <!-- ============ CONTACT ============ -->
   <section class="section" id="contact">
     <div class="container contact-box">
-      <h2 class="section-title">Let's Work Together</h2>
-      <p class="section-sub">
+      <p class="kicker">Contact</p>
+      <h1 class="page-title">Let's build something.</h1>
+      <p class="page-sub">
         Building an MVP? Need a technical co-founder's eye, or a Flutter team lead?
         I'm open to CTO engagements, contract work, and full-time remote roles.
       </p>
+      <a class="contact-email" id="copyEmail" href="mailto:mastermajidosse@gmail.com">mastermajidosse@gmail.com</a>
+      <span class="copy-note" id="copyNote">click to email — or copy below</span>
       <div class="hero-actions">
-        <a href="mailto:mastermajidosse@gmail.com" class="btn">Email Me</a>
+        <a href="#" class="btn" id="copyBtn">Copy Email</a>
         <a href="https://linkedin.com/in/othmaneelmajid" class="btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
@@ -32,5 +36,15 @@
   <footer class="footer" id="siteFooter"></footer>
 
   <script src="js/layout.js"></script>
+  <script>
+    document.getElementById('copyBtn').addEventListener('click', function (e) {
+      e.preventDefault();
+      navigator.clipboard.writeText('mastermajidosse@gmail.com').then(() => {
+        document.getElementById('copyNote').textContent = 'copied to clipboard ✓';
+      }).catch(() => {
+        document.getElementById('copyNote').textContent = 'copy failed — select it manually';
+      });
+    });
+  </script>
 </body>
 </html>

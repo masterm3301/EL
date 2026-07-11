@@ -5,20 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About — Othman El Majid</title>
   <meta name="description" content="About Othman El Majid — mobile application developer and technology leader specializing in cross-platform Flutter development." />
+  <script>(function(){var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <header class="nav" id="siteHeader"></header>
 
-  <!-- ============ ABOUT ============ -->
+  <section class="page-head">
+    <div class="container">
+      <p class="kicker">About</p>
+      <h1 class="page-title">I build products from zero to one.</h1>
+    </div>
+  </section>
+
   <section class="section" id="about">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
+      <div class="about-grid" data-reveal>
         <div class="about-text">
           <p>
             I'm a mobile application developer and technology leader specializing in
@@ -47,6 +53,7 @@
             <li><strong>Education:</strong> Computer Science — NTIC 2016</li>
             <li><strong>Email:</strong> <a href="mailto:mastermajidosse@gmail.com">mastermajidosse@gmail.com</a></li>
             <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/othmaneelmajid" target="_blank" rel="noopener">linkedin.com/in/othmaneelmajid</a></li>
+            <li><strong>CV:</strong> <a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener">View on Google Drive</a></li>
           </ul>
         </div>
       </div>
