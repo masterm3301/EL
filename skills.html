@@ -5,40 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skills — Othman El Majid</title>
   <meta name="description" content="Skills of Othman El Majid — Flutter, Dart, Firebase, AWS, cross-platform architecture, CI/CD, and engineering leadership." />
+  <script>(function(){var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <header class="nav" id="siteHeader"></header>
 
-  <!-- ============ SKILLS ============ -->
+  <section class="page-head">
+    <div class="container">
+      <p class="kicker">Skills</p>
+      <h1 class="page-title">Tools of the trade.</h1>
+    </div>
+  </section>
+
   <section class="section" id="skills">
     <div class="container">
-      <h2 class="section-title">Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>Mobile &amp; Frontend</h3>
-          <div class="tags"><span>Flutter</span><span>Dart</span><span>BLoC pattern</span><span>C# (Unity)</span><span>Java</span><span>WordPress</span><span>CSS</span><span>Responsive UI</span></div>
-        </div>
-        <div class="skill-card">
-          <h3>Backend &amp; Cloud</h3>
-          <div class="tags"><span>Firebase Auth</span><span>Firestore</span><span>Cloud Functions</span><span>FCM Messaging</span><span>Firebase Performance</span><span>AWS</span><span>Parse Server</span><span>REST APIs</span><span>Postman</span></div>
-        </div>
-        <div class="skill-card">
-          <h3>Architecture &amp; DevOps</h3>
-          <div class="tags"><span>Cross-platform architecture</span><span>CI/CD (Codemagic)</span><span>TDD</span><span>Bash automation</span><span>Git workflows</span></div>
-        </div>
-        <div class="skill-card">
-          <h3>Leadership</h3>
-          <div class="tags"><span>Tech strategy</span><span>Product execution</span><span>Recruitment</span><span>Team &amp; people management</span><span>Marketing strategy</span></div>
-        </div>
+      <div class="skill-group" data-reveal>
+        <h3>Mobile &amp; Frontend</h3>
+        <div class="tags"><span>Flutter</span><span>Dart</span><span>BLoC pattern</span><span>C# (Unity)</span><span>Java</span><span>WordPress</span><span>CSS</span><span>Responsive UI</span></div>
+      </div>
+      <div class="skill-group" data-reveal>
+        <h3>Backend &amp; Cloud</h3>
+        <div class="tags"><span>Firebase Auth</span><span>Firestore</span><span>Cloud Functions</span><span>FCM Messaging</span><span>Firebase Performance</span><span>AWS</span><span>Parse Server</span><span>REST APIs</span><span>Postman</span></div>
+      </div>
+      <div class="skill-group" data-reveal>
+        <h3>Architecture &amp; DevOps</h3>
+        <div class="tags"><span>Cross-platform architecture</span><span>CI/CD (Codemagic)</span><span>TDD</span><span>Bash automation</span><span>Git workflows</span></div>
+      </div>
+      <div class="skill-group" data-reveal>
+        <h3>Leadership</h3>
+        <div class="tags"><span>Tech strategy</span><span>Product execution</span><span>Recruitment</span><span>Team &amp; people management</span><span>Marketing strategy</span></div>
       </div>
 
       <h3 class="certs-title">Certifications &amp; Continuing Education</h3>
-      <ul class="certs">
+      <ul class="certs" data-reveal>
         <li>Flutter Essentials</li>
         <li>C# for Unity Game Development</li>
         <li>How to Get Things Done Ahead of Deadlines</li>
