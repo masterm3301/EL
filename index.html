@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Othman El — Mobile &amp; Full-Stack Developer · CTO</title>
   <meta name="description" content="Othman El — Mobile application developer, full-stack engineer and CTO with 9+ years of experience, 38+ shipped apps and 1M+ downloads." />
+  <script>(function(){var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);})();</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -17,20 +18,18 @@
   <!-- ============ HERO ============ -->
   <section class="hero" id="top">
     <div class="container">
-      <h1>Othman El Majid</h1>
-      <p class="hero-role">Mobile &amp; Web Developer &nbsp;·&nbsp; Full-Stack Engineer &nbsp;·&nbsp; CTO</p>
+      <p class="kicker">Mobile &amp; Full-Stack · CTO · Rabat, Morocco</p>
+      <h1 class="hero-name">Othman El Majid</h1>
       <p class="hero-lead">
-        Tech leader with <strong>9+ years of experience</strong> shipping <strong>38+ mobile apps and websites</strong>
-        that have collectively passed <strong>1&nbsp;million downloads</strong>. I turn early-stage startup concepts
-        into production-grade MVPs and scale them end-to-end — from architecture and development to deployment
-        and team leadership. Trusted by founders and clients across Morocco, France, Canada, the United States,
-        and Saudi Arabia.
+        Nine years turning early-stage startup concepts into production-grade products —
+        <strong>38+ apps and websites shipped</strong>, <strong>1M+ combined downloads</strong>,
+        trusted by founders across Morocco, France, Canada, the US, and Saudi Arabia.
       </p>
       <div class="hero-actions">
         <a href="projects.html" class="btn">View Projects</a>
         <a href="writing.html" class="btn btn-outline">Read My Writing</a>
       </div>
-      <div class="hero-stats">
+      <div class="hero-stats" data-reveal>
         <div class="stat"><span class="stat-num">9+</span><span class="stat-label">Years of Experience</span></div>
         <div class="stat"><span class="stat-num">38+</span><span class="stat-label">Apps &amp; Websites Shipped</span></div>
         <div class="stat"><span class="stat-num">1M+</span><span class="stat-label">Combined Downloads</span></div>
@@ -39,8 +38,53 @@
     </div>
   </section>
 
+  <!-- ============ SELECTED WORK ============ -->
+  <section class="home-strip" data-reveal>
+    <div class="container">
+      <div class="strip-head">
+        <h2>Selected work</h2>
+        <a href="projects.html">All projects →</a>
+      </div>
+      <ul class="row-list">
+        <li class="row-item">
+          <a href="projects.html">
+            <span class="row-title">Coordify — concept to MVP in five months</span>
+            <span class="row-meta">CTO · 2025–2026</span>
+          </a>
+        </li>
+        <li class="row-item">
+          <a href="projects.html">
+            <span class="row-title">Caraleya — social &amp; event-planning super-app</span>
+            <span class="row-meta">Flutter · 2025</span>
+          </a>
+        </li>
+        <li class="row-item">
+          <a href="projects.html">
+            <span class="row-title">Justice Data Solutions — US legal-tech apps</span>
+            <span class="row-meta">Lead Flutter · 2022–2024</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ RECENT WRITING ============ -->
+  <section class="home-strip" data-reveal>
+    <div class="container">
+      <div class="strip-head">
+        <h2>Recent writing</h2>
+        <a href="writing.html">All essays →</a>
+      </div>
+      <ul class="row-list" id="homeWriting">
+        <li class="row-item"><a href="writing.html"><span class="row-title">Essays on startups, funding, and building things</span><span class="row-meta">→</span></a></li>
+      </ul>
+    </div>
+  </section>
+
   <footer class="footer" id="siteFooter"></footer>
 
   <script src="js/layout.js"></script>
+  <script src="blog/posts.js"></script>
+  <script src="js/blog.js"></script>
 </body>
 </html>
