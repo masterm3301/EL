@@ -628,6 +628,302 @@ window.BLOG_POSTS = {
           "text": "Travel until the laziness leaves your mind and the boredom leaves your heart."
         }
       ]
+    },
+    {
+      "id": "belief-faith-and-the-obstacle",
+      "type": "article",
+      "title": "Belief, Faith, and The Obstacle",
+      "date": "2026-07-28",
+      "source": "Essay",
+      "link": "",
+      "tags": [
+        "Leadership",
+        "Faith",
+        "Teams"
+      ],
+      "excerpt": "Every project, every relationship, every movement eventually meets The obstacle — the thing that comes out of nowhere like a storm and decides whether the whole thing lives. You don't get to control it. What you can build before it arrives is belief, faith, and the spirit of the team — and the leader's job is to be the guide, not the hero.",
+      "body": [
+        {
+          "type": "p",
+          "text": "If you keep playing leader role you start seeing things repeat over and over"
+        },
+        {
+          "type": "p",
+          "text": "I tried lot of projects and been with lot of leaders. Lot of ventures. Lot of different things."
+        },
+        {
+          "type": "p",
+          "text": "there is always .. in all aspects of life, there is always something that come out of nowhere — 'The obstacle', or a thing whatever they call it (because surely some book on leadership will mention it)"
+        },
+        {
+          "type": "p",
+          "text": "And this is not just a small abstract barrier that blocks, slows, or prevents progress"
+        },
+        {
+          "type": "p",
+          "text": "but it's a project killer, it's the biggest hurdle at a certain point and it always happens in different phases of the project"
+        },
+        {
+          "type": "p",
+          "text": "unless GOD gives you 100/100 in luck stats and you go through life on easy mode, and i believe the majority is not that case"
+        },
+        {
+          "type": "p",
+          "text": "for the majority there is always that one thing that comes like a storm and hits you hard"
+        },
+        {
+          "type": "p",
+          "text": "and depending on how big the thing you're after, the bigger the obstacle"
+        },
+        {
+          "type": "p",
+          "text": "in tech projects i always saw that thing as a hard thing that can be conquered by commitment — if you keep going 99% of the time you will get through it .."
+        },
+        {
+          "type": "p",
+          "text": "in relationships The obstacle is on another level because usually it 'make or break' the relation"
+        },
+        {
+          "type": "p",
+          "text": "and finally boss level .. in politics .. that's a whole nother story (level lwa7ch)"
+        },
+        {
+          "type": "p",
+          "text": "it's very very difficult to navigate people in a mass"
+        },
+        {
+          "type": "p",
+          "text": "it gets crazy when you try to without credit and without giving anything"
+        },
+        {
+          "type": "p",
+          "text": "or when you're not seen as the leader"
+        },
+        {
+          "type": "p",
+          "text": "and it gets more crazier when you try to get people to do the work voluntarily and fight for something you believe in and 'probably' they believe in too"
+        },
+        {
+          "type": "p",
+          "text": "AND if god forbid you're going to risk their lives, you are at the 'impossible' level of difficulty"
+        },
+        {
+          "type": "p",
+          "text": "UNLESS you have the solution"
+        },
+        {
+          "type": "h2",
+          "text": "The solution is to make people believe"
+        },
+        {
+          "type": "p",
+          "text": "People need to believe in something or someone"
+        },
+        {
+          "type": "p",
+          "text": "they need to believe in you to believe in your aspiration or your religion or your god or your lies or something .. anything"
+        },
+        {
+          "type": "p",
+          "text": "to work as hard as possible, not to please anyone including you, but to achieve the goal that they believe should be achieved"
+        },
+        {
+          "type": "p",
+          "text": "To top it up there is another level of belief and it's called faith"
+        },
+        {
+          "type": "p",
+          "text": "it's when you bridge the gap between belief and action"
+        },
+        {
+          "type": "p",
+          "text": "when people completely trust in you or in something you stand for, with strong conviction and no doubt"
+        },
+        {
+          "type": "p",
+          "text": "then you can achieve anything in life"
+        },
+        {
+          "type": "p",
+          "text": "and if you can reach people and influence them without religion .. you are very dangerous to everyone in life"
+        },
+        {
+          "type": "p",
+          "text": "not just motivating people to work, but influencing them to it forever and ever"
+        },
+        {
+          "type": "p",
+          "text": "there is no better explanation of faith leadership than the spiritual leaders"
+        },
+        {
+          "type": "p",
+          "text": "they are the masters of this game because they don't position themselves to be the hero in the story"
+        },
+        {
+          "type": "p",
+          "text": "but they position as the guide ... the savior .. the ones that help the masses move to light from the darkness .."
+        },
+        {
+          "type": "h2",
+          "text": "The spirit of the team (روح الفريق)"
+        },
+        {
+          "type": "p",
+          "text": "there is another secret concept to the art of leading — will call it the spirit of the team"
+        },
+        {
+          "type": "p",
+          "text": "if there is faith and this 'spirit' + good leader = ultimate formula to achieve anything in life"
+        },
+        {
+          "type": "p",
+          "text": "i was looking for the secret concept like a fool without knowing 2 small criteria .. the first small criteria is that the leader need to be better than the people in his circle and the second the group need to bond with each other not just the leader with each one of them / and the bigger the number the harder the task (it's not an army so it can't be divided to legions and if someone make mistakes you can't hang him up xD)"
+        },
+        {
+          "type": "p",
+          "text": "SO point here is that you cannot overcome the obstacle, but you face it with"
+        },
+        {
+          "type": "quote",
+          "text": "belief/faith + spirit of the team + luck = overcome the obstacle"
+        },
+        {
+          "type": "p",
+          "text": "also luck is still in the equation — and luck is not random it's lot of things combined .."
+        },
+        {
+          "type": "p",
+          "text": "now going back to the cover of this article, 'yoda' is the guide of a story. as yoda is, you should not position yourself as the hero of the story."
+        },
+        {
+          "type": "p",
+          "text": "Your role is to be the guide: the person who understands the problem, sees the path forward, and gives the hero the tools, confidence, and direction needed to win"
+        },
+        {
+          "type": "p",
+          "text": "The guide is the best to reinforce belief .. most of the time you can't control the obstacle"
+        },
+        {
+          "type": "p",
+          "text": "you can't see it coming and you can't choose which phase it hits you in"
+        },
+        {
+          "type": "p",
+          "text": "the only thing you actually control is what you're standing on when it arrives so build the belief before you need it"
+        },
+        {
+          "type": "p",
+          "text": "build the spirit before you need it"
+        },
+        {
+          "type": "p",
+          "text": "because when the storm comes it's already too late to start convincing people"
+        },
+        {
+          "type": "p",
+          "text": "they either believe or they don't and you find that out in one single day"
+        },
+        {
+          "type": "p",
+          "text": "the rest is in gods hand"
+        }
+      ]
+    },
+    {
+      "id": "what-winning-actually-means",
+      "type": "article",
+      "title": "What Winning Actually Means",
+      "date": "2026-07-29",
+      "source": "Essay",
+      "link": "",
+      "tags": [
+        "Startups",
+        "Founders",
+        "Mentality"
+      ],
+      "excerpt": "Michael Jordan lost first, for years, and badly — and everything he won was built out of what he did with the losing. Winning in startups isn't one thing either; it changes shape by stage. Learning speed, then one repeatable act of demand, then margin and retention, then a machine that runs without you.",
+      "body": [
+        {
+          "type": "p",
+          "text": "After watching the Jordan documentary and seeing his mentality"
+        },
+        {
+          "type": "p",
+          "text": "I'm amazed so much about the mentality of this guy .. it's so amazing to see someone who live to win and don't care about anything other than the win .. jordan is as great as people preach about him"
+        },
+        {
+          "type": "p",
+          "text": "In startups winning is not one single thing"
+        },
+        {
+          "type": "p",
+          "text": "It changes shape depending on where you are"
+        },
+        {
+          "type": "p",
+          "text": "most founders don't make the dunk and win because they're chasing the wrong definition for their stage .."
+        },
+        {
+          "type": "h3",
+          "text": "Pre-product"
+        },
+        {
+          "type": "p",
+          "text": "Winning is learning speed. You are not trying to be right. You are trying to be wrong quickly and cheaply. If you ran five experiments this month and killed three ideas, you won. If you spent the month polishing a deck for an idea nobody has tested, you lost — even if the deck is beautiful."
+        },
+        {
+          "type": "h3",
+          "text": "Pre-revenue"
+        },
+        {
+          "type": "p",
+          "text": "Winning is one repeatable act of demand. Not “people said they'd buy.” One channel, one segment, one offer where money actually moves, and you can do it again next week. Vanity metrics don't survive this test. A thousand followers who never buy is a loss with good lighting."
+        },
+        {
+          "type": "h3",
+          "text": "Post-revenue"
+        },
+        {
+          "type": "p",
+          "text": "Winning is margin and retention. Revenue that costs more than it earns is a treadmill with a scoreboard attached. The win is a positive contribution margin per order and a customer who comes back without being paid to."
+        },
+        {
+          "type": "h3",
+          "text": "Scale"
+        },
+        {
+          "type": "p",
+          "text": "Winning is a machine that runs without you. If growth stops when you take a week off, you don't have a company. You have a job with equity."
+        },
+        {
+          "type": "p",
+          "text": "What I take from Jordan isn't the jumping. It's that he lost first, for years, and badly. Teams pushed him around and knocked him out of the playoffs over and over. He didn't respond by explaining why the losses weren't really his fault. He came back physically stronger, with a better shot and a different way of playing, and then he took everything. The winning was built entirely out of what he did with the losing."
+        },
+        {
+          "type": "p",
+          "text": "That's the part I wish more founders here would take seriously, because the most common way I've seen startups die isn't a lack of talent or even money. It's a founder treating a bad result as a verdict. The campaign flops, the feature nobody opens, the month that ends with almost no sales, and something quietly closes. From then on they defend the idea instead of testing it. They stop asking questions they might not like the answer to."
+        },
+        {
+          "type": "p",
+          "text": "Jordan wanted the ball at the end of the game even though he had missed plenty of times before. Missing was information. It wasn't who he was. A founder needs that same separation, because you will be wrong about your product, your pricing, your channel and probably your market, and being wrong early and cheaply is the whole job. The month I found out that a core part of our model didn't work the way I assumed felt like a disaster for about two days. It was the best thing that happened to us that year."
+        },
+        {
+          "type": "p",
+          "text": "The other half of it is deeply unglamorous. He was famous for being the first one in the gym and the last one out, doing the same repetitions long after he had nothing left to prove. Startups are the same. There's no clever version of talking to customers every week, following up with the people who didn't answer, shipping something small every seven days whether you feel like it or not. Most of what separates the companies that make it isn't a brilliant insight. It's a founder who kept doing the boring thing for three years while everyone else got tired at month eight."
+        },
+        {
+          "type": "p",
+          "text": "So if you want a definition, here's mine. Winning as a startup is staying alive long enough, and learning fast enough, that one of your bets finally lands. Everything else is decoration."
+        },
+        {
+          "type": "p",
+          "text": "This article is 90% written by ai."
+        },
+        {
+          "type": "p",
+          "text": "Go for the win"
+        }
+      ]
     }
   ]
 };
